@@ -99,7 +99,7 @@ void move(char direcao) {
 			break;
 	}	
 
-	if(!podeandar(&m, HEROI, proximox, proximoy))
+	if(!podeandar(&m, FANTASMA, proximox, proximoy))
 		return;
 
 	if(ehpersonagem(&m, PILULA, proximox, proximoy)) {
